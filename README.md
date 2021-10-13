@@ -1,13 +1,9 @@
-# “The problem is not the problem. The problem is your attitude about the problem. Do you understand?” – Jack Sparrow
+# a = [121, 144, 19, 161, 19, 144, 19, 11]  
+b = [121, 14641, 20736, 361, 25921, 361, 20736, 361]
 
-This code prints the name of the current captain (now it is Hector's name).
+два массива передаются в функцию 
+fun comp(a: IntArray?, b: IntArray?): Boolean {
 
-However, the crew re-elected the captain, and now it's Jack Sparrow.
+}
 
-Fix the declaration of captain variable and redirect it from Hector Barbossa to Jack Sparrow by creating a new Pirate object by analogy. After that, print the name of the current captain again.
-
-Sample Output:
-
-Hector Barbossa
-
-Jack Sparrow
+вернуть true если каждый элемента массива в квадрате пррисутствует в массиве b
