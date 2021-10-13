@@ -14,5 +14,4 @@ fun comp (a: IntArray?, b: IntArray?): Boolean{
             }
         }
     }
-    return false
 }
