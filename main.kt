@@ -3,11 +3,9 @@ fun main() {
     val b = intArrayOf(121, 14641, 20736, 361, 25921, 361, 20736, 361)
     println(comp(a, b))
 }
-
-
 fun comp (a: IntArray?, b: IntArray?): Boolean{
     val aLength = a?.size
-    val bool: Boolean = true
+    var bool: Boolean = true
     if (aLength != null) {
         for(i in 0..aLength.toInt()){
             if (b != null) {
@@ -15,5 +13,5 @@ fun comp (a: IntArray?, b: IntArray?): Boolean{
             }
         }
     }
-retun bool
+return bool
 }
