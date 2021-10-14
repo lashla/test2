@@ -9,7 +9,7 @@ fun comp (a: IntArray?, b: IntArray?): Boolean{
     if (aLength != null) {
         for(i in 0..aLength.toInt()){
             if (b != null) {
-                if (!b.contains(i*i)) bool = false
+                if (!b.contains(i*i)) bool = true
             }
         }
     }
