@@ -7,9 +7,9 @@ fun comp (a: IntArray?, b: IntArray?): Boolean{
     val aLength = a?.size
     var bool: Boolean = true
     if (aLength != null) {
-        for(i in 0..aLength.toInt()){
+        for(num in a){
             if (b != null) {
-                if (!b.contains(i*i)) bool = true
+                if (!b.contains(num*num)) bool = false
             }
         }
     }
