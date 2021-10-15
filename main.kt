@@ -5,13 +5,15 @@ fun main() {
 }
 fun comp (a: IntArray?, b: IntArray?): Boolean{
     val aLength = a?.size
+    var numT = 0;
     var bool: Boolean = true
     if (aLength != null) {
         for(num in a){
             if (b != null) {
-                if (!b.contains(num*num)) bool = false
+                if (!b.contains(num*num)) bool = false; numT++
             }
         }
     }
-return bool
+    bool = (numT == aLength)
+    return bool
 }
